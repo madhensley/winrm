@@ -36,11 +36,11 @@
 # Updated by Michael Crilly <mike@autologic.cm>
 # Updated by Anton Ouzounov <Anton.Ouzounov@careerbuilder.com>
 # Updated by Nicolas Simond <contact@nicolas-simond.com>
-# Updated by Dag Wieërs <dag@wieers.com>
+# Updated by Dag WieÃ«rs <dag@wieers.com>
 # Updated by Jordan Borean <jborean93@gmail.com>
-# Updated by Erwan Quélin <erwan.quelin@gmail.com>
+# Updated by Erwan QuÃ©lin <erwan.quelin@gmail.com>
 # Updated by David Norman <david@dkn.email>
-# Updated by SVA
+# Updated by MadHensley
 #
 # Version 1.0 - 2014-07-06
 # Version 1.1 - 2014-11-11
