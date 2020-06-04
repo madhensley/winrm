@@ -408,7 +408,7 @@ If ($DisableHTTP)
         Write-Log "Disabled WinRM over HTTP."
 
         Write-Verbose "Configure firewall to disable WinRM HTTP connections."
-        Set-NetFirewallRule -DisplayName 'Windows Remote Management (HTTP-In)' -Enabled False -PassThru | Select -Property DisplayName, Profile, Enabled
+        Set-NetFirewallRule -Name 'WINRM-HTTP-In-TCP*' -Enabled False -PassThru | Select -Property DisplayName, Profile, Enabled
         Write-Log "Configure firewall to disable WinRM HTTP connections."
         
     }
