@@ -230,7 +230,7 @@ Trap
 }
 $ErrorActionPreference = "Stop"
 $VerbosePreference = "Continue"
-Start-Transcript -path C:\Logs\AnsibleWinRMConfig.log -append
+Start-Transcript -path C:\Windows\Logs\AnsibleWinRMConfig.log -append
 
 # Get the ID and security principal of the current user account
 $myWindowsID=[System.Security.Principal.WindowsIdentity]::GetCurrent()
