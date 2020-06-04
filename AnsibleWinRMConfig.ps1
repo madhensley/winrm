@@ -229,6 +229,8 @@ Trap
     Exit 1
 }
 $ErrorActionPreference = "Stop"
+$VerbosePreference = "Continue"
+Start-Transcript -path C:\Logs\AnsibleWinRMConfig.log -append
 
 # Get the ID and security principal of the current user account
 $myWindowsID=[System.Security.Principal.WindowsIdentity]::GetCurrent()
@@ -473,3 +475,4 @@ Else
     Throw "Unable to establish an HTTP or HTTPS remoting session."
 }
 Write-VerboseLog "PS Remoting has been successfully configured for Ansible."
+Stop-Transcript
